@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import NavBar from '../navigation/NavBar'
+import NavigationBar from '../navigation/NavigationBar'
 
 export default class DashbordMain extends Component {
     render() {
         return (
             <div>
-              <NavBar></NavBar>
+              <NavigationBar></NavigationBar>
             </div>
         )
     }

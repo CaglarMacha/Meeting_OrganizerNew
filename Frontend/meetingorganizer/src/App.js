@@ -1,9 +1,14 @@
+import DashbordMain from "./components/root/DashbordMain";
+import { Container } from "reactstrap";
 
 
 function App() {
   return (
     <div >
-      aa
+      <Container>
+        <DashbordMain></DashbordMain>
+      </Container>
+      
     </div>
   );
 }

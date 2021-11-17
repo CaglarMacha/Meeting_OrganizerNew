@@ -9,15 +9,16 @@ height: 100vh;
 display: flex;
 justify-content:clearInterval;
 align-items: clearInterval;
-background:${props=>props.dark? "#121c1f":"white"};
-color:${props=>props.dark? "white":"#121c1f"}
+background:${props=>props.dark? "#FF6700":"CHARCOAL GRAY"};
+color:${props=>props.dark? "CHARCOAL GRAY":"#242F36"}
 
 `
+
 function App() {
   return (
     <div >
       <Container>
-      <Containers dark>
+      <Containers dark >
       <DashbordMain></DashbordMain>
       </Containers>
        
